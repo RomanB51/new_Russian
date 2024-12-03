@@ -12,8 +12,7 @@ int main(int argc, char *argv[])
     // QTimer::singleShot(5000, &a, &QCoreApplication::quit);
     // which quits the application after 5 seconds.
 
-    // If you do not need a running Qt event loop, remove the call
-    // to a.exec() or use the Non-Qt Plain C++ Application template.
+
 
     return a.exec();
 }
